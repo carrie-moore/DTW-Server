@@ -1,0 +1,34 @@
+{
+  "name": "dtw-server",
+  "version": "1.0.0",
+  "description": "server for Do The Work App ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carriecarter/DTW-Server.git"
+  },
+  "author": "Carrie Carter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carriecarter/DTW-Server/issues"
+  },
+  "homepage": "https://github.com/carriecarter/DTW-Server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken-promisified": "^1.0.3",
+    "mongoose": "^5.4.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "eslint": "^5.10.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.9"
+  }
+}
