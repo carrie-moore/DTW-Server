@@ -8,6 +8,9 @@
     "mocha": true,
     "es6": true
   },
+  "plugins": [
+    "react"
+],
   "extends": "eslint:recommended",
   "rules": {
     "no-console": "warn",

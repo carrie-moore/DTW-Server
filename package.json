@@ -24,20 +24,19 @@
     "url": "https://github.com/carriecarter/DTW-Server/issues"
   },
   "homepage": "https://github.com/carriecarter/DTW-Server#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.2.0",
+    "eslint": "^4.8.0",
+    "mocha": "^4.0.0",
+    "nodemon": "^1.12.1"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
     "jsonwebtoken-promisified": "^1.0.3",
-    "mongodb": "^3.1.10",
-    "mongoose": "^5.4.0",
-    "morgan": "^1.9.1"
-  },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "chai-http": "^4.2.0",
-    "eslint": "^5.10.0",
-    "mocha": "^5.2.0",
-    "nodemon": "^1.18.9"
+    "mongoose": "^4.12.3",
+    "morgan": "^1.9.0"
   }
 }
